@@ -1,0 +1,447 @@
+body {
+  margin: 0;
+}
+/*ბოდის ყოველთვის გაუთიშე მარგინი */
+.wrap,
+.search,
+.nextWrap
+ {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation {
+  padding-left: 20px;
+}
+.wrap,
+.navigation button,
+.search button {
+  color: aliceblue;
+  background-color: #7d9ecb;
+  border: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.29);
+}
+.navigation button:last-child {
+  border: none;
+}
+.bostom {
+  flex-basis: 20%;
+}
+.wrap h1 {
+  letter-spacing: 13px;
+}
+.wrap p {
+  padding-left: 10px;
+}
+.navigation {
+  padding-top: 40px;
+}
+.navigation button:hover,.ghilakebi button:hover,
+.search button:hover {
+  background-color: #0c58c3;
+  cursor: wait;
+}
+
+.search {
+  position: relative;
+  margin-top: 40px;
+}
+.search a {
+  text-decoration: none;
+  border:1px solid white;
+  
+  margin-right: 20px;
+  width: 80px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  height: 27px;
+  padding-left: 20px;
+  font-size: 13px;
+  padding-top: 4px;
+  color: aliceblue;
+}
+.fa-link{
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+.input::placeholder,
+input[type="text" i] {
+  width: 80px;
+  height: 25px;
+}
+
+.input::placeholder {
+  background-color: #7d9ecb;
+  color: aliceblue;
+  border: none;
+  box-sizing: border-box;
+  padding: 30px;
+}
+input[type="text" i] {
+  padding: 0;
+  margin: 0;
+  border:1px solid white;
+}
+.fa-magnifying-glass
+ {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+/*second chapter*/
+.nextWrap,
+.nextWrap button {
+  background-color: #29426b;
+  color: aliceblue;
+  border: none;
+  border-right: 1px solid white;
+  height: 40px;
+  border-left: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.nextWrap button:hover {
+  background-color: #0c1f3b;
+  cursor: pointer;
+}
+img[src] {
+  padding-top: 4%;
+}
+.block {
+  display: flex;
+  background-color: #708238;
+  margin-top: 20px;
+  padding-left: 20px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+} 
+.block h2 {
+  padding-right: 0px;
+  margin-left: 15px;
+  padding-left: 30px;
+  margin-right: 10;
+  flex-basis: 20%;
+  font-size: 50px;
+  white-space: nowrap;
+  
+  margin-top: 15px;
+}
+
+.fa-sharp1 {
+  
+  font-size: 50px;
+  flex-basis: 5%;
+  padding-top: 30px;
+}
+.block p {
+  padding-top: 20px;
+  flex-basis: 75%;
+  padding-right: 20px;
+}
+.block h2,.block p,.fa-solid
+ {
+  box-sizing: border-box;
+  color: aliceblue;
+}
+/* სამი ყუთი */
+.rap
+
+{
+  display: flex;
+  flex-wrap: wrap;
+
+  margin:0 auto;
+  width: 1400px;
+  
+  
+}
+.firs,.secon,.three
+{
+  background-color: rgba(233, 236, 241, 0.977);
+}
+/*main property*/
+.on
+ {
+  flex-basis: 30%;
+  height: 320px;
+  margin-left:10px ;
+  margin-right:10px ;
+  margin-top:20px ;
+  padding-left: 26px;
+ }
+
+
+.bosses
+ {
+  background-color: rgba(233, 236, 241, 0.977);
+}
+.bosses h3 {
+  font-size: 40px;
+  color: #5786c7;
+  font-weight: normal;
+}
+h3:first-child,
+h4:first-child,
+h4:nth-of-type(3) {
+  margin-bottom: 0px;
+}
+h3:last-of-type,
+h4:nth-of-type(2) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+h4:nth-of-type(4)
+{
+  margin-top: 0;
+}
+.bosses p {
+  margin-top: 0px;
+  color: #595c5c;
+}
+h3,
+.bosses p,
+h4 {
+  margin-left: 35px;
+  margin-right: 35px;
+  box-sizing: border-box;
+}
+.bosses p,.block h2,.block p,
+h4,.ghilakebi button,ul,
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fourth {
+  background-color: purple;
+ 
+}
+.subclass,
+.second-subclass {
+  color: white;
+  font-size: 30px;
+}
+
+.fiveth {
+  background-color: #5786c7;
+}
+
+.subclass,
+.second-subclass,
+.third-subclass {
+  box-sizing: border-box;
+}
+.subclass h4:nth-of-type(3),
+.second-subclass h4:nth-of-type(3) {
+  margin-bottom: 0;
+}
+/*last box*/
+.calendar, .jan{
+  display: flex;
+  flex-wrap: nowrap;
+  
+ 
+}
+h5 {
+  font-size: 20px;
+  margin-top: 0;
+}
+.july,.thirty {
+  border: 1px solid #808080;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+ padding: 5px;
+}
+.july p,.thirty p {
+  color: #708238;
+}
+.thirty p:nth-of-type(1),.july p:nth-of-type(1) {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  font-size: 15px; }
+  .thirty p:nth-of-type(2),.july p:nth-of-type(2) {
+    margin-top: 0;
+    font-size: 44px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .calendar {
+    margin-bottom: 10px;
+  }
+  /* kalendris khutis gverdit warwerebi */
+  .june p, .janvary p {
+    color: #0c58c3;
+  }
+  .janvary p {
+    margin:0 0 5px 40px;
+   }
+   .june {
+    margin: 10px 0 0 40px;
+   }
+  
+/*buttom*/
+.ghilakebi {
+  display: flex;
+  flex-wrap: nowrap;
+  gap:20px;
+  box-sizing: border-box;
+ 
+  margin: 50px 0px 50px 120px;
+
+}   
+.ghilakebi button {
+  font-size: 17px;
+  color: #5786c7; 
+  border: 1px solid#5786c7;
+  height: 35px;
+  white-space: nowrap;
+  width: 400px;
+  box-sizing: border-box;
+  
+}
+/*responsiuli dizaini*/
+ @media screen  and (max-width:1300px)
+ {
+  
+  .ghilakebi {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .ghilakebi button {
+    font-size: 17px;
+    width: 900px;
+    margin: 10px;
+    }
+    .on
+ {
+
+  flex-basis: 350px;
+  height: 300px;
+ }
+ .rap {
+  width: 1200px;
+  margin:0 auto;
+ }
+ .block p {
+  padding-top: 10px;
+  flex-basis: 75%;
+  padding-right: 20px;
+}
+
+
+
+ }
+ /*footer*/
+ footer {
+  background-color: #393939;
+  color:aliceblue;
+  box-sizing: border-box;
+  
+ }
+ul,ol {
+list-style-type: none;
+}
+ul :first-child,ol {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+ol li{
+  padding-bottom: 10px;
+
+}
+.foot {
+  display: flex;
+  flex-wrap: nowrap;
+margin: 0 auto;
+box-sizing: border-box;
+ 
+}
+.footerFlex {
+  
+  margin-left:20px;
+  box-sizing: border-box;
+  flex-basis: 25%;
+}
+.tiny {
+  padding-left: 10px;
+  
+}
+hr {
+  color:aliceblue
+}
+.d {
+  text-align: center;
+  letter-spacing: normal;
+  padding-bottom: 100px;
+}
+/*surati*/
+img {
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 1800px;
+height: 600px;
+
+ }
+ @media screen and (max-width:1300px)
+ {
+  img {
+    width: 1200px;
+    height: 350px;
+  }
+  /*
+  .photo{
+    position: relative;
+    
+   }
+  
+  .imgScript {
+    position: absolute;
+    margin-left:20px;
+ 
+  } */
+ 
+ }
+ .photo{
+  position: relative;
+  
+ }
+ .imgScript {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  top:30%;
+  left:20%;
+  color: aliceblue;
+  width: 800px;
+  font-size: 60px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+ }
+ h6 {
+  font-size: 90px;
+  margin-bottom: 0;
+  margin-top: 0;
+ }
+ .imgScript p {
+  margin-top: 0;
+ }
+ @media screen and (min-width:1300px) {
+
+  .imgScript {
+    left:30%;
+
+  }
+  .footerFlex {
+    flex-basis: 25%; 
+    margin-left:60px;
+  }
+  .tiny {
+    flex-basis: 17%;
+  }
+ }
